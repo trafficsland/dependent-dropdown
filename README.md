@@ -1,4 +1,4 @@
-dependent-dropdown
+dependent-dropdown - multiple v.1.4.5
 ==================
 
 [![BOWER version](https://badge-me.herokuapp.com/api/bower/kartik-v/dependent-dropdown.png)](http://badges.enytc.com/for/bower/kartik-v/dependent-dropdown)
