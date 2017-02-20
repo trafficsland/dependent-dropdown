@@ -185,7 +185,7 @@
             $.ajax(settings);
         },
         getSelect: function (data, placeholder, defVal) {
-            var self = this, $select = (defVal instanceof Array && defVal.length > 1) ? $("<select>", {multiple:true}) : $("<select>"), idParam = self.idParam, nameParam = self.nameParam, options;
+            var self = this, $select = (defVal instanceof Array && defVal.length > 0) ? $("<select>", {multiple:true}) : $("<select>"), idParam = self.idParam, nameParam = self.nameParam, options;
             if (placeholder !== false) {
                 createOption($select, "", placeholder, defVal);
             }
